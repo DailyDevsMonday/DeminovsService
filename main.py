@@ -3,7 +3,7 @@ from telebot import types
 import time
 
 # Main tokens here -->
-bot = telebot.TeleBot('1870221472:AAEwNPg5pOyz35B75hQ17eLundIYB0mAf0U')
+bot = telebot.TeleBot('BOTSTOKEN')
 
 # Метод для получения текстовых сообщений
 @bot.message_handler(content_types=['text']) # https://github.com/eternnoir/pyTelegramBotAPI
